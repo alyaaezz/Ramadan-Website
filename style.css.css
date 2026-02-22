@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:"Cairo", sans-serif;
+}
+
+body{
+    min-height:100vh;
+     background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.card{
+    width:450px;
+    max-width:100%;
+    background:white;
+    padding:30px;
+    border-radius:16px;
+    text-align:center;
+    box-shadow:0 15px 40px rgba(0,0,0,0.2);
+}
+
+.title{
+    font-size:24px;
+    margin-bottom:15px;
+    color:#203a43;
+}
+
+.top-bar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.box{
+    background:#f1f5f9;
+    color:#111;
+    padding:10px;
+    border-radius:10px;
+    margin-bottom:15px;
+    text-align:right;
+    line-height:1;
+    max-height:70px;
+    overflow-y:auto;
+}
+
+#day-number{
+    font-weight:bold;
+    color:#2c5364;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:14px;
+    transition:0.3s;
+}
+
+#btn{
+    width:100%;
+    margin-top:10px;
+    font-size:16px;
+}
+
+button:hover{
+    background:#1e3c72;
+    transform:translateY(-2px);
+}
+
+button:active{
+    transform:scale(0.97);
+}
+
+#duaa-box{
+    background:#fff3cd;
+    color:#856404;
+    border:1px solid #ffeeba;
+}
+
+@media(max-width:600px){
+    .card{
+        padding:20px;
+    }
+}
